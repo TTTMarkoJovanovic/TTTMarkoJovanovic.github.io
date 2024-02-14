@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <title>Mon portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="image/profile.jpg" alt="profile photo" width="30" height="30" class="d-inline-block align-top" />
+                Marko Jovanovic
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projets">Mes projets</a>
+                    </li>
+					<li class="nav-item">
+						<button class="nav-link border" id="toggleModeBtn" onclick="toggleDayNightMode()">Basculer mode Jour/Nuit</button>
+					</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jovanovic-marko-cv.pdf" target="_blank">Curriculum Vitae</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-content">
+        <div class="container">
+            <header class="my-5">
+                <h1>Hey, je suis un etudiant en developpement web</h1>
+                <p>Etudiant à L'IPSSI depuis octobre 2022 suivant le programme de BTS SIO, je suis autonome, motivé,
+                    organisé et possède une bonne ouverture d'esprit. J'étudie afin d'integrer sous peu une école
+                    d'ingénieur.
+                </p>
+            </header>
+
+            <section class="presentation-image">
+                <img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" class="img-fluid" />
+            </section>
+
+            <section class="projects-section">
+				<h1>Présentation du BTS SIO</h1>
+				<p>Le Brevet de Technicien Superieur Services informatiques aux 
+					Organisations (BTS SIO) s’adresse a ceux qui souhaitent se former
+					en deux ans aux metiers d’administrateur reseau ou de developpeur pour 
+					integrer directement le marche du travail ou continuer des etudes dans le 
+					domaine de l’informatique. Pour ma part, j'ai choisi de suivre ce cursus en 
+					raison de mon intérêt pour le développement informatique.</p>
+				<h3>Les débouchés</h3>
+				<h3 class="pt-3">Option SLAM</h3>
+				<ul>
+					<li>Developpeur d'applications informatiques</li>
+					<li>Developpeur informatique</li>
+					<li>Analyste d'applications ou d'etudes</li>
+					<li>Analyste programmeur</li>
+					<li>Charge d'etudes informatiques</li>
+					<li>Informaticien d'etudes</li>
+					<li>Programmeur analyste</li>
+					<li> Programmeur d'applications</li>
+					<li>Responsable des services applicatifs</li>
+					<li>Technicien d'etudes informatiques</li>
+				</ul>
+				<h3 class="pt-2">Option SISR</h3>
+				<ul>
+					<li>Technicien de production</li>
+					<li>Technicien d’infrastructure</li>
+					<li>Technicien reseau et telecoms</li>
+					<li>Technicien systemes et reseaux</li>
+					<li> Administrateur systemes et reseaux</li>
+					<li>upport systemes et reseaux</li>
+					<li>Pilote d'exploitation</li>
+					<li> Informaticien support et deploiement</li>
+				</ul>
+				<h3 class="pt-2">La cybersécurité</h3>
+				<p>Pour repondre au besoin actuel du domaine informatique, la securite des 
+					donnees professionnelles et personnelles sont devenu l'un des points 
+					primordiaux de cette formation. Au vu de l'augmentation des vols de 
+					donnees et de l'evolution des techniques d'arnaques, les entreprises 
+					souhaitent developper la cybersecurite . C'est a cet effet, que le BTS SIO 
+					s'est reforme et est maintenant plus axe sur la securite . Les deux sections 
+					apprennent donc a securiser leurs codes pour les SLAM et l'Infrastructure 
+					reseau pour les SISR.</p>
+			</section>
+
+			<section class="projects-section">
+				<h1>Compétences</h1>
+				<div class="row">
+					<div class="projects my-3">
+						<div class=" col-3 project">
+							<img class="logo" src="image/Html.png">
+						</div>
+					</div>
+					<div class="projects my-3">
+						<div class=" col-3 project">
+							<img class="logo" src="image/Css.png">
+						</div>
+					</div>
+					<div class="projects my-3">
+						<div class=" col-3 project">
+							<img class="logo" src="image/php.png">
+						</div>
+					</div>
+					<div class="projects my-3">
+						<div class=" col-3 project">
+							<img class="logo" src="image/Java.png">
+						</div>
+					</div>
+					<div class="projects my-3">
+						<div class=" col-3 project">
+							<img class="logo" src="image/react.jpg">
+						</div>
+					</div>
+					<div class="projects my-3">
+						<div class=" col-3 project">
+							<img class="logo" src="image/javascript.png">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="projects-section">
+				<h1> Veille technologique</h1>
+				<p>La veille technologique, c'est quoi ? L'atout principal de la veille technologique est d'identifier ou d'anticiper des innovations par secteurs d'activité. Les sources de veille technologique constituent une information stratégique incontournable pour devancer, développer et exploiter des inventions.</p>
+				<p>J'ai eu l'occasion de réaliser une veille technologique sur le framework Symfony <a href="veille.pdf" target="_blank">ici</a></p>
+			</section>
+	
+			<section class="projects-section">
+				<h1> Tableau de synthèse</h1>
+				<p>Voici le <a href="Tableau de synthese E4.pdf" target="_blank">Tableau de synthèse</a></p>
+			</section>
+
+			<section class="projects-section " id="projets">
+				<h1>Projets réalisés à L'ipssi</h1>
+				<div class="row">
+					<div class="projects my-3">
+						<div class="col-3 project">
+							<h4>AP1</h4>
+							<p><a class ="black" href="Helios.pdf" target="_blank">Documents</a></p>
+							<p><a class="black" href="https://github.com/r0om1ain/HELIO" target ="_blank">GithHub du Site</a></p>
+							<p class="dates">Date 2023</p>
+						</div>
+						<div class=" col-3 project">
+							<h4>AP2</h4>
+							<p><a class ="black" href="ap2.pdf" target="_blank">Documents</a></p>
+							<p><a class="black" href="VeilleTechnoHelios.pdf" target="_blank">Veille technologique</a></p>
+							<p class="dates">Date 2023</p>
+						</div>
+						<div class=" col-3 project">
+							<h4>AP3</h4>
+							<p><a class ="black" href="Manuel_Utilisateur-M2L.pdf" target="_blank">Documents</a></p>
+							<p class="dates">Date 2023</p>
+						</div>
+						<div class=" col-3 project">
+							<h4>Inventaire réseau</h4>
+							<p><a class ="black" href="Inventaire_baie_SISR 1.pdf" target="_blank">Documents</a></p>
+							<p><a></a></p>
+							<p class="dates">Date 2023</p>
+						</div>
+						<div class=" col-3 project">
+							<h4>GLPI</h4>
+							<p><a class ="black" href="Documentation_GLPI_1_1.pdf" target="_blank">Documents</a></p>
+							<p><a></a></p>
+							<p class="dates">Date 2023</p>
+						</div>
+					</div>
+				</div>
+				<h1>Projets réalisé en entreprise</h1>
+				<div class="row">
+					<div class="projects my-3">
+						<div class="col-3 project">
+							<h4>Projet Benev(front)</h4>
+							<p><a class ="black" href="Helios.pdf" target="_blank">Documents</a></p>
+							<p class="dates">Date 2023</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="projects-section">
+				<h1>Entreprise</h1>
+				<p>Netways est une société dynamique implantée à Marne la Vallée. Depuis l'avènement d'Internet, notre société propose à ses clients des solutions adaptées à leurs besoins. Spécialisée dans la conception et le développement de site Internet (web, ecommerce,sur mesure,...), Netways vous accompagne et vous conseille pour mener à bien vos projets.</p>
+			</section>
+		</section>
+
+            <footer class="my-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Mon école</h3>
+                        <p><a class="white" href="https://ecole-ipssi.com" target="_blank">Ipssi MLV</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Mes Réseaux</h3>
+                        <p><a class="white" href="https://www.linkedin.com/in/marko-jovanovic-61b104292/"
+                                target="_blank">LinkdIn</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Mes adresses</h3>
+                        <p>markojovanovic1@orange.fr</p>
+                        <p>m.jovanovic@ecole-ipssi.com</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+	<script>
+		function toggleDayNightMode() {
+			const body = document.body;
+			const nav = document.querySelector('nav');
+			const header = document.querySelector('header');
+			const footer = document.querySelector('footer');
+			const projectsSections = document.querySelectorAll('.projects-section');
+			const blackElements = document.querySelectorAll('.black');
+	
+			// Toggle le mode jour/nuit en ajoutant ou enlevant la classe 'night-mode'
+			body.classList.toggle('night-mode');
+			nav.classList.toggle('night-mode');
+			header.classList.toggle('night-mode');
+			footer.classList.toggle('night-mode');
+	
+			// Pour chaque section de projets, basculez également la classe 'night-mode'
+			projectsSections.forEach(section => {
+				section.classList.toggle('night-mode');
+			});
+	
+			// Pour chaque élément avec la classe 'black', basculez également la classe 'night-mode'
+			blackElements.forEach(element => {
+				element.classList.toggle('night-mode');
+			});
+		}
+	</script>
+</body>
+
+</html>
